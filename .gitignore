@@ -11,7 +11,7 @@ indexed_genome/
 slurm-out/
 *.err
 *.out
-## lambda and puc controls
+## lambda and puc files
 controls/
 controls_concat/
 ## genome files
