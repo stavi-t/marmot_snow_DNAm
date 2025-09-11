@@ -1,0 +1,20 @@
+## data directories
+aggregate/
+aligned/
+aligned_mMarFla1/
+called/
+called_mMarFla1/
+filtered/
+indexed_chr_genome/
+indexed_genome/
+## slurm files
+slurm-out/
+*.err
+*.out
+## lambda and puc controls
+controls/
+controls_concat/
+## genome files
+*.fna
+## files listing file names
+*.txt
