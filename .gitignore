@@ -14,7 +14,14 @@ slurm-out/
 ## lambda and puc files
 controls/
 controls_concat/
-## genome files
+## genome data
 *.fna
 ## files listing file names
 *.txt
+## files involving the new ref genome
+aggregate_matrix_mMarFla1.sh
+align_reads_mMarFla1.sh
+call_methylation_mMarFla1.sh
+# misc unused files
+split_large.sh
+merge.sh
