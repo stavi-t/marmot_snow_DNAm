@@ -1,4 +1,4 @@
-# Code used in Tennenbaum et al. 202X: 
+# Code used in Tennenbaum et al., 2026: 
 
 "Climate change increases energetic demand, shaping epigenetic regulation of metabolism in a hibernating mammal"
 
@@ -6,7 +6,7 @@
 0. Assemble sample metadata
 
 ## DNA methylation data
-1. Shell scripts to analyze RR-EMseq data (BSBOLT), (NEB kit v1 + MspI digest): make_index.sh, trim_read.sh, align_reads.sh, call_methylation.sh, aggregate_matrix.sh
+1. Shell scripts to analyze RR-EMseq, NEB kit v1 data (BSBOLT): make_index.sh, trim_reads.sh, align_reads.sh, call_methylation.sh, aggregate_matrix.sh
 2. Shell/python scripts to analyze control DNA (BSSEEKER2): lambda.sh, puc19.sh, lambda_summarize.py, puc19_summarize.py
 3. Python scripts to analyze methylation variance and coverage: coverage_PCAs.py, coverage_violins.py
 4. R script to run binomial GLMMs (LME4-BREEDING): 575k_snow.R
